@@ -1,0 +1,64 @@
+body{
+
+    margin: 0;
+    background-image: url(/images/back.png);
+    font-family: "StratosSkyeng", sans-serif;
+    background-position: bottom;
+
+}
+
+.hight{
+    height: 100vh;
+    background-image: url(/images/head.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.low{
+    padding-top: 75px;
+    border-top: 25px solid black;
+    position: relative;
+}
+
+table{
+    width: 1200px;
+    height: 100vp;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr, td{
+    border: 25px solid whitesmoke;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+img{
+    width: 560px;
+}
+
+p{
+    background-color: aliceblue;
+    width: max-content;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 23px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    display: block;
+    background-color: rgb(132, 26, 182);
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 38px;
+    position: absolute;
+    bottom: 75px;
+    right: 80px;
+    text-decoration: none;
+}
